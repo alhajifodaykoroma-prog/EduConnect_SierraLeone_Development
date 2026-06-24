@@ -251,3 +251,16 @@ EduConnect-Sierra-Leone/
 ├── Assets/
 │
 └── README.md
+Contributing
+Contributions are welcome. To get started:
+Fork the repository
+Create a new branch: git checkout -b feature/your-feature-name
+Commit your changes: git commit -m "Add: your feature description"
+Push to your branch: git push origin feature/your-feature-name
+Open a Pull Request for review
+Please ensure your code follows the project's existing conventions and that any new features are documented.
+Team
+Developed by students of the Principles of Software Engineering (PROG102) course at Limkokwing University of Creative Technology, Sierra Leone.
+License
+This project is licensed under the MIT License.
+EduConnect Sierra Leone — Learn • Connect • Grow
