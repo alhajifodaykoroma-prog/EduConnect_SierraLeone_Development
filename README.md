@@ -1,124 +1,126 @@
 # EduConnect Sierra Leone
 
-## Learn • Connect • Grow
+> A Digital Public Good platform connecting students, graduates, mentors, employers, and scholarship providers across Sierra Leone.
 
-EduConnect Sierra Leone is a Digital Public Good (DPG) platform designed to connect students, graduates, mentors, employers, and scholarship providers through a centralized digital system.
-
-The project was developed as part of the Principles of Software Engineering (PROG102) course at Limkokwing University of Creative Technology, Sierra Leone.
-
-The platform aims to improve access to scholarships, internships, jobs, mentorship opportunities, and educational resources for young people across Sierra Leone.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status: In Development](https://img.shields.io/badge/Status-In%20Development-blue.svg)]()
+[![SDLC: Waterfall](https://img.shields.io/badge/SDLC-Waterfall-orange.svg)]()
 
 ---
 
-## Project Overview
+## Table of Contents
 
-Many students and graduates in Sierra Leone struggle to access educational and career development opportunities because information is scattered across different websites, institutions, and social media platforms.
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Objectives](#objectives)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [System Architecture](#system-architecture)
+- [System Design Artifacts](#system-design-artifacts)
+- [Prototype Screens](#prototype-screens)
+- [Getting Started](#getting-started)
+- [Repository Structure](#repository-structure)
+- [Stakeholders](#stakeholders)
+- [Development Methodology](#development-methodology)
+- [Contributing](#contributing)
+- [Team](#team)
+- [License](#license)
 
-EduConnect Sierra Leone was proposed as a centralized platform where users can:
+---
 
-- Discover scholarships
-- Search for internships
-- Find employment opportunities
-- Access learning resources
-- Connect with mentors
-- Receive important notifications
-- Manage personal profiles
+## Overview
 
-The project focuses on system analysis, software engineering design, architecture planning, database modeling, and user interface prototyping.
+**EduConnect Sierra Leone** is a centralized digital ecosystem designed to bridge the gap between opportunity and access for students and graduates in Sierra Leone. The platform aggregates scholarships, internships, jobs, mentorship programs, and learning resources in one place — removing the friction of searching across scattered websites, institutions, and social media channels.
+
+This project was developed as part of the **Principles of Software Engineering (PROG102)** course at **Limkokwing University of Creative Technology, Sierra Leone**, with an emphasis on real-world software engineering practices: system analysis, UML modeling, database design, architecture planning, and UI prototyping.
 
 ---
 
 ## Problem Statement
 
-Students and graduates in Sierra Leone face challenges in accessing:
+Students and graduates in Sierra Leone face significant barriers when trying to access educational and career development opportunities. Information is fragmented across multiple platforms, institutions, and informal networks — meaning many qualified individuals miss scholarships, internships, and jobs simply because they had no reliable way to find them.
 
-- Scholarships
-- Internships
-- Employment opportunities
-- Mentorship programs
-- Professional learning resources
-
-The lack of a centralized platform causes many qualified individuals to miss opportunities that could improve their educational and professional growth.
-
----
-
-## Aim of the Project
-
-To design a Digital Public Good platform that connects students, graduates, mentors, employers, scholarship providers, and educational resources through a centralized digital ecosystem.
+EduConnect Sierra Leone addresses this by providing a single, accessible platform that connects all relevant stakeholders in one digital space.
 
 ---
 
 ## Objectives
 
-- Provide a centralized platform for educational and career opportunities
-- Enable scholarship and internship discovery
-- Connect users with experienced mentors
-- Improve access to educational resources
-- Facilitate communication between stakeholders
-- Enhance employability through technology
-- Support sustainable development initiatives
+- Provide a **centralized hub** for educational and career opportunities
+- Enable easy **discovery of scholarships and internships**
+- Connect users with **experienced mentors** in their field
+- Improve access to **curated learning resources**
+- Facilitate **direct communication** between students, employers, and providers
+- Enhance **youth employability** through technology
+- Support **sustainable development** goals within Sierra Leone
 
 ---
 
 ## Key Features
 
-### User Features
+### For Students & Graduates
 
-- User Registration
-- User Authentication (Login)
-- Scholarship Search
-- Internship Search
-- Job Search
-- Mentor Directory
-- Mentorship Requests
-- Learning Resources Access
-- Notifications
-- Profile Management
+| Feature | Description |
+|---|---|
+| Registration & Login | Secure account creation and authentication |
+| Scholarship Search | Browse and filter scholarship opportunities |
+| Internship Search | Discover internship postings from verified employers |
+| Job Search | Find full-time and part-time employment listings |
+| Mentor Directory | Browse mentors by industry, expertise, and availability |
+| Mentorship Requests | Send and manage mentorship connection requests |
+| Learning Resources | Access curated educational content and materials |
+| Notifications | Receive timely alerts on new opportunities |
+| Profile Management | Manage personal details, skills, and applications |
 
-### Administrative Features
+### For Administrators
 
-- User Management
-- Opportunity Management
-- Resource Management
-- Platform Monitoring
-
----
-
-## Stakeholders
-
-The system serves:
-
-- Students
-- Graduates
-- Mentors
-- Employers
-- Scholarship Providers
-- Administrators
+| Feature | Description |
+|---|---|
+| User Management | Oversee accounts across all user types |
+| Opportunity Management | Add, edit, and remove listings |
+| Resource Management | Curate and maintain the learning resource library |
+| Platform Monitoring | Track usage, activity, and system health |
 
 ---
 
-## Software Development Methodology
+## Technology Stack
 
-The project follows the **Waterfall Software Development Life Cycle (SDLC)** model.
+| Layer | Technologies |
+|---|---|
+| **Frontend** | Flutter, React |
+| **Backend** | Node.js, PHP |
+| **Database** | MySQL |
+| **Design** | Figma, Draw.io |
+| **Version Control** | Git, GitHub |
 
-### SDLC Phases
+---
 
-1. Planning
-2. Requirements Analysis
-3. System Design
-4. Development
-5. Testing
-6. Deployment
-7. Maintenance
+## System Architecture
+
+The platform follows a **three-layer architecture**:
+
+```
+┌─────────────────────────────────────────┐
+│           Presentation Layer            │
+│      Web Interface · Mobile App         │
+├─────────────────────────────────────────┤
+│           Application Layer             │
+│  Auth · Scholarships · Jobs ·           │
+│  Mentorship · Notifications             │
+├─────────────────────────────────────────┤
+│              Data Layer                 │
+│  Users · Scholarships · Job Listings ·  │
+│  Mentorship Requests · Resources        │
+└─────────────────────────────────────────┘
+```
 
 ---
 
 ## System Design Artifacts
 
-The project includes:
+The project includes a comprehensive set of design artifacts:
 
 ### UML Diagrams
-
 - Use Case Diagram
 - Activity Diagram
 - Sequence Diagram
@@ -126,29 +128,26 @@ The project includes:
 - State Diagram
 
 ### Database Design
-
 - Entity Relationship Diagram (ERD)
 
 ### Data Flow Modeling
-
-- DFD Level 0 (Context Diagram)
+- DFD Level 0 — Context Diagram
 - DFD Level 1
 
 ### Architecture
-
 - System Architecture Diagram
 - Network Diagram
 
 ### Project Planning
-
 - Gantt Chart
-- Repository Structure
+
+All diagrams and documentation are located in the [`Documentation/`](Documentation/) directory.
 
 ---
 
 ## Prototype Screens
 
-The project includes a high-fidelity Figma prototype containing:
+A high-fidelity Figma prototype covers the full user journey across 15 screens:
 
 1. Splash Screen
 2. Welcome Screen
@@ -166,69 +165,58 @@ The project includes a high-fidelity Figma prototype containing:
 14. Profile Settings Screen
 15. Admin Dashboard Screen
 
+> Prototype files are available in [`Prototype/Figma_Designs/`](Prototype/Figma_Designs/).
+
 ---
 
-## Proposed Technology Stack
+## Getting Started
 
-### Frontend
+> **Note:** The platform is currently in the design and prototyping phase. Full development setup instructions will be added as the project progresses.
 
-- Flutter
-- React
+### Prerequisites
 
-### Backend
-
-- Node.js
-- PHP
-
-### Database
-
-- MySQL
-
-### Design Tools
-
-- Figma
-- Draw.io
-
-### Version Control
-
+- Node.js v18+
+- PHP 8+
+- MySQL 8+
+- Flutter SDK
 - Git
-- GitHub
 
----
+### Clone the Repository
 
-## System Architecture
+```bash
+git clone https://github.com/your-org/EduConnect-Sierra-Leone.git
+cd EduConnect-Sierra-Leone
+```
 
-The proposed system follows a three-layer architecture:
+### Backend Setup
 
-### Presentation Layer
+```bash
+cd Backend
+npm install        # for Node.js services
+# or
+composer install   # for PHP services
+```
 
-Handles user interaction through web and mobile interfaces.
+### Frontend Setup
 
-### Application Layer
+```bash
+cd Frontend
+flutter pub get    # for mobile
+npm install        # for web (React)
+```
 
-Processes business logic including:
+### Database Setup
 
-- Authentication Service
-- Scholarship Service
-- Job Service
-- Mentorship Service
-- Notification Service
-
-### Data Layer
-
-Stores:
-
-- User Data
-- Scholarship Records
-- Job Listings
-- Mentorship Requests
-- Learning Resources
+```bash
+cd Database
+mysql -u root -p < schema.sql
+```
 
 ---
 
 ## Repository Structure
 
-```text
+```
 EduConnect-Sierra-Leone/
 │
 ├── Documentation/
@@ -236,31 +224,72 @@ EduConnect-Sierra-Leone/
 │   ├── UML_Diagrams/
 │   ├── DFDs/
 │   ├── ERD/
-│   ├── Architecture/
+│   └── Architecture/
 │
 ├── Prototype/
 │   ├── Figma_Designs/
-│   ├── Screenshots/
+│   └── Screenshots/
 │
 ├── Frontend/
-│
 ├── Backend/
-│
 ├── Database/
-│
 ├── Assets/
-│
 └── README.md
-Contributing
+```
+
+---
+
+## Stakeholders
+
+The platform is designed to serve six key groups:
+
+- **Students** — access opportunities and resources
+- **Graduates** — find employment, mentorship, and further education
+- **Mentors** — share expertise and guide the next generation
+- **Employers** — post internships and job opportunities
+- **Scholarship Providers** — list and manage scholarship offerings
+- **Administrators** — manage the platform and its content
+
+---
+
+## Development Methodology
+
+This project follows the **Waterfall SDLC** model, progressing through clearly defined phases:
+
+1. **Planning** — Define scope, goals, and feasibility
+2. **Requirements Analysis** — Gather and document stakeholder needs
+3. **System Design** — Create architecture, UML, ERD, and UI prototypes
+4. **Development** — Build frontend, backend, and database components
+5. **Testing** — Validate functionality, usability, and performance
+6. **Deployment** — Launch the platform for public access
+7. **Maintenance** — Monitor, update, and improve over time
+
+---
+
+## Contributing
+
 Contributions are welcome. To get started:
-Fork the repository
-Create a new branch: git checkout -b feature/your-feature-name
-Commit your changes: git commit -m "Add: your feature description"
-Push to your branch: git push origin feature/your-feature-name
-Open a Pull Request for review
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m "Add: your feature description"`
+4. Push to your branch: `git push origin feature/your-feature-name`
+5. Open a Pull Request for review
+
 Please ensure your code follows the project's existing conventions and that any new features are documented.
-Team
-Developed by students of the Principles of Software Engineering (PROG102) course at Limkokwing University of Creative Technology, Sierra Leone.
-License
-This project is licensed under the MIT License.
-EduConnect Sierra Leone — Learn • Connect • Grow
+
+---
+
+## Team
+
+Developed by students of the **Principles of Software Engineering (PROG102)** course at **Limkokwing University of Creative Technology, Sierra Leone**.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+*EduConnect Sierra Leone — Learn • Connect • Grow*
